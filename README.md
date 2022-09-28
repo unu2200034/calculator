@@ -3,6 +3,8 @@ Calculator.js: a node.js Demonstration Project
 An example node.js project, including tests with mocha, that behaves like
 a pocket calculator.
 
+adding Status Badge for Pipeline
+
 [![Build Status](https://dev.azure.com/UNU2200034/Parts%20Unlimited/_apis/build/status/unu2200034.calculator?branchName=master)](https://dev.azure.com/UNU2200034/Parts%20Unlimited/_build/latest?definitionId=2&branchName=master)
 
 
