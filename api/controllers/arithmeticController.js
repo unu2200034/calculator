@@ -11,8 +11,9 @@ exports.calculate = function(req, res) {
   });
 
   var operations = {
-    'add':      function(a,b) { return a + b }, // making correction to the formula 
-    'subtract': function(a,b) { return a - b },
+     //2. it turns out that the + operator is necessary for the function to function correctly
+    'add':      function(a,b) { return +a + +b }, // 1. making correction to the formula_ removing the + sign before variable a and b
+    'subtract': function(a,b) { return a - b },   // the first changes made here return an error when pulled to Azure
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
   };
